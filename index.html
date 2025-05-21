@@ -4,62 +4,114 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
+    
     <main>
-        <section>
-            <div class="header">
+        <section id="home">
+            <div class="head">
                 <video class="video" autoplay loop muted>
                     <source src="trailer.mp4" type="video/mp4">
                 </video>
+                <header>
+                    <a class="button" href="#new">
+                        Новости
+                    </a>
+                    <a class="button" href="#hero">
+                        Герои
+                    </a>
+                    <a class="button" href="#sport">
+                        Киберспорт
+                    </a>
+                    <a class="button" href="#game">
+                        Игра
+                    </a>
+                </header>
                 <div class="box">
-                    <h3 class="hello">«Современный многопользовательский шедевр»</h3>
+                    <h3 class="hello">«Современный многопользовательский <br> шедевр»</h3>
                     <hr class="left">
                     <h3 class="novosti">Последние новости:</h3>
                     <div class="list">
-                        <article class="card">
+                        <a class="card" href="#">
                             <img class="photo" src="pictures/international-team-logos.jpg" alt="team_logo">
                             <h3 class="top one">15 мая 2025 г.</h3>
                             <h3 class="top two">The International 2025 — прямые приглашения и «Дорога на TI»</h3>
-                        </article>
-                        <article class="card">
+                        </a>
+                        <a class="card" href="#">
                             <img class="photo" src="pictures/event.jpg" alt="team_logo">
                             <h3 class="top one">13 мая 2025 г.</h3>
                             <h3 class="top two">Между линий: как создавался «Терновый трон»</h3>
-                        </article>
-                        <article class="card">
+                        </a>
+                        <a class="card" href="#">
                             <img class="photo" src="pictures/international.jpg" alt="team_logo">
                             <h3 class="top one">1 апреля 2025 г.</h3>
                             <h3 class="top two">The International 2025 — расписание и формат</h3>
-                        </article>
+                        </a>
                     </div>
                 </div>
             </div>
         </section>
-        <section>
+        <section id="new">
             <div class="home">
-                <img src="pictures/radiant_dire5.jpg" alt="dota2">
+                <img src="pictures/radiant_dire5.jpg" alt="map">
                 <h3 class="join">ПРИСОЕДИНЯЙТЕСЬ <br> К БИТВЕ ДРЕВНИХ</h3>
                 <hr class="jo">
                 <p class="info">Каждый день миллионы игроков по всему миру вступают в командную 
                     битву 5 на 5 в роли одного из более чем сотни героев. Dota — глубочайшая 
                     многопользовательская стратегия всех времён, в которой всегда найдётся место 
                     новой стратегии или тактике. Она совершенно бесплатна, и это не поменяется — 
-                    начинайте защищать своего Древнего уже сейчас.</p>
+                    начинайте защищать своего Древнего уже сейчас.
+                </p>
+                <a class="buttn" href="https://www.dota2.com/news">
+                    Свежие новости
+                </a>
             </div>
         </section>
-        <section>
+        <section id="hero">
             <div class="choose">
                 <img src="pictures/hero_choose.jpg" alt="choose_hero">
                 <h3 class="choose_hero">Кого вы выберете?</h3>
                 <hr class="ch">
-                <p class="info">Список героев в Dota 2 огромен и безгранично разнообразен: 
+                <p class="info_hero">Список героев в Dota 2 огромен и безгранично разнообразен: 
                     здесь вы встретите и магов-тактиков, и свирепых громил, и хитроумных 
                     негодяев. Их невероятные способности и сокрушительные ульты непременно 
-                    приведут вас к победе.</p>
+                    приведут вас к победе.
+                </p>
+                <a class="buttn_hero" href="#">
+                    Все герои
+                </a>
+            </div>
+        </section>
+        <section id="sport">
+            <div class="sport">
+                <img src="pictures/fon.jpg" alt="sport">
+                <h3 class="turnir">Профессиональный турнирный сезон</h3>
+                <hr class="ts">
+                <p class="info_sport">
+                    Отдыхая от продвижения по системе рейтинга, вы можете учиться у лучших. 
+                    В профессиональном сезоне вы увидите высочайший уровень соревновательной 
+                    Доты, и следить за ним можно в клиенте игры, на Twitch и на Steam.TV. Не 
+                    'пропускайте ни одной трансляции, ведь с каждым матчем приближается самый 
+                    большой киберспортивный турнир в мире — The International.
+                </p>
+            </div>
+        </section>
+        <section id="game">
+            <div class="game">
+                <img src="pictures/background.png" alt="background">
+                <h3 class="bitva">Вступайте в <br>битву</h3>
+                <hr class="gb">
+                <a class="buttn_game" href="https://store.steampowered.com/app/570/Dota_2/">
+                    Играть бесплатно
+                </a>
             </div>
         </section>
     </main>
+    <footer>c
+        <a href="#home">
+            <img class="end" src="pictures/dota_footer_logo.png" alt="dota2">
+        </a>
+    </footer>
 </body>
 </html>
