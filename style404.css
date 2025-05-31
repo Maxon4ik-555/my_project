@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Jura:wght@400;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    font-family: 'Jura', sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+img {
+    width: 100%;
+}
+
+h1 {
+    color: white;
+    font-size: 40px;
+}
+
+main {
+    text-align: center;
+}
+
+.back {
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+    padding: 12px;
+    border-radius: 10px;
+    border: gray solid;
+    transition: 0.3s;
+}
+
+.up {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.back:hover {
+    border-color: red;
+}
+
+@media (min-width: 1280px){ 
+    img {
+        width: 60%;
+    }
+}
